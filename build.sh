@@ -1,5 +1,9 @@
 #!/bin/bash
 
+CWD=$(pwd)
 rebar get-deps
-./deps/eleveldb/build.sh
+
+cd ./deps/eleveldb && ./build.sh
+cd $CWD
+
 make all
