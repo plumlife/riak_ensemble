@@ -6,4 +6,4 @@ rebar get-deps
 cd ./deps/eleveldb && ./build.sh
 cd $CWD
 
-make all
+rebar compile
