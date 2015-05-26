@@ -1,7 +1,7 @@
 {application, riak_ensemble,
  [
-  {description, ""},
-  {vsn, git},
+  {description, "Multi-paxos library for Erlang"},
+  {vsn, "2.1.0"},
   {registered, []},
   {applications, [
                   kernel,
